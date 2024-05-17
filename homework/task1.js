@@ -1,4 +1,4 @@
-let avarageGrade = 96;
+let avarageGrade = 101;
 
 if (avarageGrade == null || avarageGrade == undefined || avarageGrade == '') {
     console.log("Помилка в визначенні середньої оцінки - не є числом");
