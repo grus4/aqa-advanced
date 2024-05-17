@@ -1,7 +1,7 @@
 let avarageGrade = 96;
 
-if (avarageGrade == null || avarageGrade == undefined) {
-    console.log("Помилка в визначенні середньої оцінки - пусте значення");
+if (avarageGrade == null || avarageGrade == undefined || avarageGrade == '') {
+    console.log("Помилка в визначенні середньої оцінки - не є числом");
 } else if (avarageGrade < 60) {
     console.log("Незадовільно");
 } else if (avarageGrade >= 60 && avarageGrade <= 70) {
