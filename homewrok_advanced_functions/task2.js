@@ -1,4 +1,4 @@
-let recursiveCount = (num) => {
+const recursiveCount = (num) => {
     console.log(num);
     
     if (!num <= 0) {
