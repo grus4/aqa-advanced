@@ -8,32 +8,23 @@ let divideTwoNumbers = (numerator, denominator) => {
     throw new Error(`The denominator cannot be 0`);
   }
 
-  const result = numerator / denominator;
-  return console.log(
-    `Result of dividing ${numerator} by ${denominator} is: ${result}`
-  );
+   return result = numerator / denominator;
 };
 
-try {
-  divideTwoNumbers(10, 5);
-} catch (error) {
-  console.error(`Error: ${error.message}`);
-} finally {
-  console.log(`Work is done`);
-}
+const testCases = [
+  { numerator: 10, denominator: 5 },
+  { numerator: 10, denominator: 0 },
+  { numerator: 'a', denominator: 5 },
+];
 
-try {
-  divideTwoNumbers(10, 0);
-} catch (error) {
-  console.error(`Error: ${error.message}`);
-} finally {
-  console.log(`Work is done`);
-}
+testCases.forEach((testCase) => {
+  try {
+    let resultOfDividing = divideTwoNumbers(testCase.numerator, testCase.denominator);
+    console.log(`Result of dividing ${testCase.numerator} by ${testCase.denominator} is: ${resultOfDividing}`);
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+  } finally {
+    console.log(`Work is done`);
+  }
 
-try {
-  divideTwoNumbers(10, "q");
-} catch (error) {
-  console.error(`Error: ${error.message}`);
-} finally {
-  console.log(`Work is done`);
-}
+})
