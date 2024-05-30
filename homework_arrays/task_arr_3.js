@@ -5,6 +5,6 @@ const sumArraynumbers = arrayNumbers.reduce(
   0
 );
 
-console.log(sumArraynumbers);
+console.log(`Sum of all elements of the array : ${sumArraynumbers}`);
 
 
