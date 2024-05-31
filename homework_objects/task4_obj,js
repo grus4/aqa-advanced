@@ -1,0 +1,11 @@
+const person = {
+    firstName: "Ben",
+    lastName: "Toj",
+    age: 30
+}
+
+person.email = "testq@gmail.com";
+
+delete person.age;
+
+console.log(person);
