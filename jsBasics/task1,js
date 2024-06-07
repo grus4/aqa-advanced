@@ -1,0 +1,15 @@
+let userName = "Max";
+const maxNumberOfCharacters = 50;
+let isStudent = true;
+let addressLine = null;
+let age;
+
+console.log(userName);
+
+console.log(maxNumberOfCharacters);
+
+console.log(isStudent);
+
+console.log(addressLine);
+
+console.log(age);

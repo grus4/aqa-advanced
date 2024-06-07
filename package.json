@@ -1,13 +1,19 @@
 {
   "name": "aqa-advanced",
   "version": "1.0.0",
-  "description": "",
+  "description": "First project",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "test",
+    "keywords"
+  ],
+  "author": "Ruslan Gaiduchok",
   "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
   "type": "module"
 }
