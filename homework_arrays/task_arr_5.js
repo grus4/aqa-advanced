@@ -1,6 +1,6 @@
 //The first variant is using the concat method
-const firstArray = [1, true, 'test', 30];
-const secondArray = [{ isPerson: true, userName: 'Kate' }, 5, '40'];
+const firstArray = [1, true, "test", 30];
+const secondArray = [{ isPerson: true, userName: "Kate" }, 5, "40"];
 const mergedArray = firstArray.concat(secondArray);
 
 console.log(mergedArray);

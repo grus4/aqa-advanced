@@ -1,5 +1,5 @@
-let userName1 = "Anton";
-let userName2 = "Kate";
+const userName1 = "Anton";
+const userName2 = "Kate";
 
 console.log("Hello " + userName1 + "!");
 

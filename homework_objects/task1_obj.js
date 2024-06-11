@@ -1,4 +1,3 @@
-
 const student = {};
 
 student.firstName = "Max";

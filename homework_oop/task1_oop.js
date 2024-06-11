@@ -13,19 +13,14 @@ console.log(book1.getBookTitle());
 console.log(book2.getBookAuthor());
 console.log(book2.getYearOfBookPublication());
 
-const ebook1 = new EBook(
-  "<The Great Gatsby>",
-  "F. Scott Fitzgerald",
-  1925,
-  "PDF"
-);
+const ebook1 = new EBook("<The Great Gatsby>", "F. Scott Fitzgerald", 1925, "PDF");
 
 ebook1.printInfo();
 
 console.log(ebook1.getBookTitle());
 console.log(ebook1.getBookFileFormat());
 
-const  newTitle = book1.setBookTitle("Casablanka");
+const newTitle = book1.setBookTitle("Casablanka");
 console.log(newTitle);
 
 console.log(ebook1.setBookFileFormat("FRT"));
