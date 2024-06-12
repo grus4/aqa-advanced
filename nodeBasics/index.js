@@ -1,5 +1,5 @@
-import chalk from "chalk";
+import chalk from 'chalk';
 
-const greenGreetings = chalk.bgGreenBright("Hi buddy");
+const greenGreetings = chalk.bgGreenBright('Hi buddy');
 
 console.log(greenGreetings);

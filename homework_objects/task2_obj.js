@@ -1,7 +1,7 @@
 const book = {
-	title: "Universe",
-	author: "Bob Fun",
-	year: "2020",
+	title: 'Universe',
+	author: 'Bob Fun',
+	year: '2020',
 };
 
 const { title, author } = book;

@@ -1,4 +1,4 @@
-import Book from "./Book.js";
+import Book from './Book.js';
 
 class EBook extends Book {
 	constructor(title, author, yearOfPublication, fileFormat) {
@@ -16,14 +16,14 @@ class EBook extends Book {
 	}
 
 	setBookFileFormat(fileFormat) {
-		if (!["EPUB", "MOBI", "PDF"].includes(fileFormat.toUpperCase())) {
+		if (!['EPUB', 'MOBI', 'PDF'].includes(fileFormat.toUpperCase())) {
 			console.log(`The file format is incorrect.`);
 		}
 		return (this.fileFormat = fileFormat);
 	}
 
 	static createEbookFromBook(book, fileFormat) {
-		if (book instanceof Book && typeof fileFormat === "string") {
+		if (book instanceof Book && typeof fileFormat === 'string') {
 			return new EBook(book.title, book.author, book.yearOfPublication, fileFormat);
 		} else {
 			throw new Error(`The first argument is not an instance of Book`);

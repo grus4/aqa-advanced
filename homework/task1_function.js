@@ -16,4 +16,4 @@ const calculateRectangleArea3 = (width, height) => width * height;
 
 console.log(calculateRectangleArea3(9, 10));
 
-const value = "some value";
+const value = 'some value';

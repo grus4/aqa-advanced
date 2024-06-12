@@ -1,4 +1,4 @@
-const url = "https://swapi.dev/api/planets";
+const url = 'https://swapi.dev/api/planets';
 
 const getPlanetName = (id) =>
 	fetch(`${url}/${id}/`)

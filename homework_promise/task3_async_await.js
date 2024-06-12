@@ -1,4 +1,4 @@
-const url = "https://swapi.dev/api/";
+const url = 'https://swapi.dev/api/';
 
 const getFilm = async (id) => {
 	const response = await fetch(`${url}/films/${id}/`);

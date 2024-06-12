@@ -1,5 +1,5 @@
 const divideTwoNumbers = (numerator, denominator) => {
-	if (typeof numerator !== "number" || typeof denominator !== "number") {
+	if (typeof numerator !== 'number' || typeof denominator !== 'number') {
 		throw new Error(`The numerator or denominator is not a number`);
 	}
 
@@ -13,7 +13,7 @@ const divideTwoNumbers = (numerator, denominator) => {
 const testCases = [
 	{ numerator: 10, denominator: 5 },
 	{ numerator: 10, denominator: 0 },
-	{ numerator: "a", denominator: 5 },
+	{ numerator: 'a', denominator: 5 },
 ];
 
 testCases.forEach((testCase) => {

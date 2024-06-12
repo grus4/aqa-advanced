@@ -1,4 +1,4 @@
-const url = "https://swapi.dev/api/";
+const url = 'https://swapi.dev/api/';
 
 const getPilotName = async (id) => {
 	const response = await fetch(`${url}/people/${id}`);

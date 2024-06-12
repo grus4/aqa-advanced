@@ -1,4 +1,4 @@
-const url = "https://swapi.dev/api/";
+const url = 'https://swapi.dev/api/';
 
 const getPilotName = (id) =>
 	fetch(`${url}/people/${id}`)

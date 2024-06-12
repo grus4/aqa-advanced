@@ -1,29 +1,29 @@
 const users = [
 	{
-		userName: "Mykola",
+		userName: 'Mykola',
 		age: 30,
-		email: "ko30@gmail.com",
+		email: 'ko30@gmail.com',
 		address: {
-			street: "Upa street",
-			building: "8a",
+			street: 'Upa street',
+			building: '8a',
 		},
 	},
 	{
-		userName: "Don",
+		userName: 'Don',
 		age: 38,
-		email: "test38@gmail.com",
+		email: 'test38@gmail.com',
 		address: {
-			street: "Verhnia street",
-			building: "10",
+			street: 'Verhnia street',
+			building: '10',
 		},
 	},
 	{
-		userName: "Kate",
+		userName: 'Kate',
 		age: 18,
-		email: "kate18@gmail.com",
+		email: 'kate18@gmail.com',
 		address: {
-			street: "Zelena street",
-			building: "20",
+			street: 'Zelena street',
+			building: '20',
 		},
 	},
 ];
