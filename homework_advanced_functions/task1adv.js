@@ -1,18 +1,18 @@
 //The First version of the callback is using arrow functions
 const handleEvenNumber = () => {
-  console.log(`Number is even`);
+	console.log(`Number is even`);
 };
 
 const handleOddNumber = () => {
-  console.log(`Number is odd`);
+	console.log(`Number is odd`);
 };
 
 const handleNumbers = (number, handleEvenCallBack, handleOddCallBack) => {
-  if (number % 2 === 0) {
-    handleEvenCallBack();
-  } else {
-    handleOddCallBack();
-  }
+	if (number % 2 === 0) {
+		handleEvenCallBack();
+	} else {
+		handleOddCallBack();
+	}
 };
 
 const numberToCheck = 8;
@@ -26,21 +26,21 @@ but the message hows the exact number(which was passed to the handleNum (HOF) fu
 */
 
 const handleEven = function () {
-  console.log(`Number: ${this.number} is even`);
+	console.log(`Number: ${this.number} is even`);
 };
 
 const handleOdd = function () {
-  console.log(`Number: ${this.number} is odd`);
+	console.log(`Number: ${this.number} is odd`);
 };
 
 const handleNum = function (number, handleEvenCallBack, handleOddCallBack) {
-  this.number = number;
+	this.number = number;
 
-  if (number % 2 === 0) {
-    handleEvenCallBack();
-  } else {
-    handleOddCallBack();
-  }
+	if (number % 2 === 0) {
+		handleEvenCallBack();
+	} else {
+		handleOddCallBack();
+	}
 };
 
 const anyNumberToCheck = 7;

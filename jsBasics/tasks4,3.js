@@ -1,5 +1,5 @@
-let cylinderRadius = 20;
-let cylinderHeigh = 40;
+const cylinderRadius = 20;
+const cylinderHeigh = 40;
 
 cylinderVolume = (Math.PI * cylinderRadius ** 2 * cylinderHeigh).toFixed(2);
 
